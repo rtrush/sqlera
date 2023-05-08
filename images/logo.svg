@@ -1,0 +1,20 @@
+<svg id="Группа_1" data-name="Группа 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="73" viewBox="0 0 148 73">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 30px;
+        text-anchor: middle;
+        font-family: Montserrat;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <image id="Vector-1" y="1" width="39" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAgCAYAAACRpmGNAAACJklEQVRYhc2YvY9NQRjGf4ts8vrIrkK28RGVRWETEYo3WJ2IiEZCqFEoZHVERyUSiz9huy0kRBQikRyRUCnEqsTVEA0RJuEGmeu97F3nnnNmzpy7+6tOzsy885znuXdmziEZoscQvYvoRKqSQ0mqiG4A5oCVwEtgApe165ZdlkQc3DBhnu3A+RRF6zsnegi4t+DuV2ArLntXp3Q950QFuJnTssrcrEXdWC8Bm/u0HTVXo4mPVXQceAEMF/R60/kNuszFTFHHudslwjBXL8ZOEOec6AlgpmLv78AOXDYXOk24c6IjwPWAEcPmcjAxsV4BxgLHHDC3gwiLVXQn8Czyod4D47jsc9UBywOEeUF3gPURwjyrgTW0W/erDghx4AywK07XX86a+5WoFqvomG3sozXFeZ4De3DZz7KOVZ27lkgY5v7pKh3LnROdBB6lUDWPT/bn+FDUqdg50eg1qoRRS6OQslinOkefZjiJ6P6iyv1jFd0EvPJXDYnD6vut7UdeY5FztxoWhqVyoV9jvnOiR2zBHQTOTs1vF871v3Oi/l1gekDCsHTyTtO5sV4GNjavqYfDllYPvbGKbrPT7YoBi/O0LN5v3Rv/Nn5RL3S24J2gaUY6prRbD7vzzI/1FLB3kYR1mbL0OvyJVXQt8BpYt8jiPI+BSVz2q+vc1SUizLPPUmQI0d3A02TfTdLwEdjinTu3xIR5fIrH/ZLxADgYdGRvni/Ak996x1unzXlsjwAAAABJRU5ErkJggg=="/>
+  <image id="Vector-2" x="3" y="40" width="33" height="33" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAB/klEQVRYhcXXz0obURTH8e8YpjK+gAvpWIs7a0HoqtxS3LgoXUtoUFzopiBCX6TbovQPhVC6L4FCMZtB6EMIEugD1EVGMLRykkySyb13MncSJ7/dvZlz58PAzDnBmkC9IVBtAvWTQC3ZL8yI1AWqQaBuCFTNdqFn3O0VfAUW+jtN4DVx1HYCwA9gu7/zD9gnjuqTETogSX6IDkhihHhjxTZAfogdYIV4I8WTAJMhkwFGiOcIsEPyAzSIR6CqQN0BoEPcAaOQPUFcAauOxUkugPfACaAKnvG3gh+uAM8LHvAQ2AXCgvWSU0H8ApaBZ1McVDQfgOMKnRb4YWMOEAG8JY7+V7rL8iEDgCwqg+3yIClAGlEORAPoiPuFGAFmRBoir97WDADyNT4yAcj8SvYKzmYAkHyxAbA+CQa94DPwaAaIx/jhdzqtW9OP5icx7AUvZwCQvOieZ5nQTENN0WaUJ8YxYHyouU9AEg0yOtSUATBCkqGmTIAG8eYESEGklX8DXs0BIFkDnsorujHFIZ+AdeDjFGdsCuIAuC5QLL3gkDi67H6Se2vXyH2rMtT8wQ+b/TFt0QEwbEbFmp4Adoij38lQ4wIxd0M3yADA2FCTB2Jtxw6QFADDUJMFyQbkg2gAHWGH5ANkQ4wAM2IIOQee9P+dvcsN0CEPAB+omQAAd+l+9QB0nQSTAAAAAElFTkSuQmCC"/>
+  <image id="Vector" x="42" width="33" height="34" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAiCAYAAADRcLDBAAACKUlEQVRYhcWYPWgUQRSAP08WHPw3FrHwUBHxB/wDRWUQzDUBEUxhoYW9FjaioI2QLmgb0EJIIfbGIiokSHiKRFIkogRjEY6AGIMgSkblMPJys9xx5+U2x+3O183O7O63b3/ee7uKVjB2HbAH6ADWAj+Br8A0ThZWesTkEsYeBS4B3cCBBqsWgQngGfAIJ+/bI2FsAegFTiUWrjAM3MHJq9YkjN0C3AcutHDyWgaAazj5kVzC2MPAILC9DQIxn4CzOPnYXMLYk/6ebmijQMw8UMDJZGMJY/cBr4FNKQjEfAFO4GSmXsJYfdXGgP0pCsS8BSxO/ug4VzXRm5GAcgy4GQ/KkTB2NzAFrM5IQvkF7MLJ5zgStzMWUNYAN1iKhLHr/cNiMpZQvgHbNBLnAgko+kHsUokzgQRiCiqhiSkkR1RiZ+BI7FCJzYEltuYSLEqdnP9ohGRBJWYDS8yqRKISLEU+qMRoWAdGVeJpQIG/wFAOJ9PAsoVoiryozqL3Akn0UVXUPAkQjec4eVmRcKJNyxXgd0YC2rFdjQeVQqZUnCPKz/nUnjaXcSL1EmWRcaJ8BJxOUeIWTh5Ub6gv6UrFEaL8Ykp1xnWc3K3duFwb2AM8bFOWnfe3YOh/k42L21Jxiig/4Nv/gzXtQVJK/kLO4+Rdo32S/RootwT6NF8EOhPsoUnxMdCPk2KzxSv7SWKsrj8EHAf2+kJ1I/Ddh1x7lzdLSbH82jcH+AeGZoDU1td9qgAAAABJRU5ErkJggg=="/>
+  <text id="SQLera" class="cls-1" transform="translate(95.5 65.787) scale(1 1.09)">SQL<tspan class="cls-2">era</tspan></text>
+</svg>

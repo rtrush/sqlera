@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Noto+Sans:wght@300;400;500;600;700;900&family=Montserrat:wght@300;600&display=swap"
+        rel="stylesheet">
+    <title>Справочник</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html" class="logo__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110px" height="30px">
+                            <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 1, 0, 0, 1.08968688416904,0.52550000000001, 23.2710560105102)" font-size="30px"><tspan class="blue__text-logo" font-size="30px" font-family="Montserrat" font-weight="bold" fill="#000000">SQL</tspan><tspan font-size="30px" font-family="Montserrat" fill="#000000">era</tspan></text>
+                        </svg> 
+                    </a>
+                </div>
+                <nav class="menu">
+                    <a href="course.html" class="menu__link">Курс</a>
+                    <a href="tests.html" class="menu__link">Тесты</a>
+                    <a href="handbook.html" class="menu__link menu__link-active">Справочник</a>
+                    <a href="checklist.html" class="menu__link">Памятка</a>
+                </nav>
+            </div>
+        </div>
+        <section class="header__guide">
+            <h1 class="title">Справочник <span class="blue__text">основных</span> команд SQL</h1>
+            <!-- <div class="arrow">приступить</div> -->
+        </section>
+        <div class="handbook__intro guide__block">
+            <div class="guide__item">
+                <a href="#general" class="guide__item-link intro__nav-link">
+                    <p class="guide__item-link--counter">
+                        1
+                    </p>
+                    <b>Основное</b>
+                </a>
+                <a href="#math" class="guide__item-link intro__nav-link">
+                    <p class="guide__item-link--counter">
+                        2
+                    </p>
+                    <b>Математика</b>
+                </a>
+                <a href="#string" class="guide__item-link intro__nav-link">
+                    <p class="guide__item-link--counter">
+                        3
+                    </p>
+                    <b>Строки</b>
+                </a>
+                <a href="#date" class="guide__item-link intro__nav-link">
+                    <p class="guide__item-link--counter">
+                        4
+                    </p>
+                    <b>Даты</b>
+                </a>
+                <a href="#unity" class="guide__item-link intro__nav-link">
+                    <p class="guide__item-link--counter">
+                        5
+                    </p>
+                    <b>Объединения</b>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="guide">
+        <div class="container">
+            <div class="guide__inner">
+                <h2 class="guide__title" id="general">Основные запросы</h2>
+                <div class="guide__block">
+                    <div class="guide__item">
+                        <a href="handbook/general/select.html" class="guide__item-link">
+                            <b>SELECT</b>
+                            <p class="text">получение записей</p>
+                        </a>
+                        <a href="handbook/general/insert.html" class="guide__item-link">
+                            <b>INSERT</b>
+                            <p class="text">вставка записей</p>
+                        </a>
+                        <a href="handbook/general/update.html" class="guide__item-link">
+                            <b>UPDATE</b>
+                            <p class="text">редактирование записей</p>
+                        </a>
+                        <a href="handbook/general/delete.html" class="guide__item-link">
+                            <b>DELETE</b>
+                            <p class="text">удаление записей</p>
+                        </a>
+                        <a href="handbook/general/count.html" class="guide__item-link">
+                            <b>COUNT</b>
+                            <p class="text">подсчет записей</p>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="guide__title">Условия выборки</h2>
+                <div class="guide__block">
+                    <div class="guide__item">
+                        <a href="" class="guide__item-link">
+                            <b>WHERE</b>
+                            <p class="text">условие</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>OR</b>
+                            <p class="text">логическое ИЛИ</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>AND</b>
+                            <p class="text">логическое И</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>ORDER BY</b>
+                            <p class="text">сортировка</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>LIMIT</b>
+                            <p class="text">ограничение выборки</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>BETWEEN</b>
+                            <p class="text">выбор из промежутка</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>IN</b>
+                            <p class="text">заданные значения</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>LIKE</b>
+                            <p class="text">поиск по шаблону</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>AS</b>
+                            <p class="text">смена имен полей</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>DISTINCT</b>
+                            <p class="text">уникальные значения</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>NOT</b>
+                            <p class="text">отрицание</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>IS NOT-NULL</b>
+                            <p class="text"> значение не равно NULL</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>IS NULL</b>
+                            <p class="text">значение равно NULL</p>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="guide__title" id="math">Математические функции</h2>
+                <div class="guide__block">
+                    <div class="guide__item">
+                        <a href="" class="guide__item-link">
+                            <b>MIN</b>
+                            <p class="text">минимальное значение</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>MAX</b>
+                            <p class="text">максимальное значение</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>SUM</b>
+                            <p class="text">сумма полей</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>AVG</b>
+                            <p class="text">среднее арифметическое</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>ROUND</b>
+                            <p class="text">округление</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>FLOOR</b>
+                            <p class="text">округление</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>CEILING</b>
+                            <p class="text">округление</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>TRUNCATE</b>
+                            <p class="text">усечение числа</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>ABS</b>
+                            <p class="text">модуль числа</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>SIGN</b>
+                            <p class="text">знак числа</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>MOD</b>
+                            <p class="text">деление по модулю</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>POW</b>
+                            <p class="text">возведение в степень</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>SQRT</b>
+                            <p class="text">извлечение корня</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>RAND</b>
+                            <p class="text">деление по модулю</p>
+                        </a>
+                        <a href="" class="guide__item-link hidden">
+                            <b>MIN</b>
+                            <p class="text">минимальное значение</p>
+                        </a>
+                        <a href="" class="guide__item-link hidden">
+                            <b>MAX</b>
+                            <p class="text">максимальное значение</p>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="guide__title" id="string">Поиск по строкам</h2>
+                <div class="guide__block">
+                    <div class="guide__item">
+                        <a href="" class="guide__item-link">
+                            <b>REPLACE</b>
+                            <p class="text">поиск и замена</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>POSITION</b>
+                            <p class="text">поиск подстроки</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>LOCATE</b>
+                            <p class="text">поиск подстроки</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>INSTR</b>
+                            <p class="text">поиск подстроки</p>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="guide__title">Изменение строк</h2>
+                <div class="guide__block">
+                    <div class="guide__item">
+                        <a href="" class="guide__item-link">
+                            <b>LEFT</b>
+                            <p class="text">обрезка слева</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>RIGHT</b>
+                            <p class="text">обрезка справа</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>SUBSTRING</b>
+                            <p class="text">взятие подстроки</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>LPAD</b>
+                            <p class="text">дополнение строки слева</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>RPAD</b>
+                            <p class="text">дополнение строки справа</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>REVERSE</b>
+                            <p class="text">переворот строки</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>REPEAT</b>
+                            <p class="text">повторение строки</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>CONCAT</b>
+                            <p class="text">сложение строк</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>CONCAT_WS</b>
+                            <p class="text">сложение с разделителем</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>GROUP_CONCAT</b>
+                            <p class="text">сложение ячеек</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>LENGTH</b>
+                            <p class="text">длина строки</p>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="guide__title">Работа с регистром и пробелами</h2>
+                <div class="guide__block">
+                    <div class="guide__item">
+                        <a href="" class="guide__item-link">
+                            <b>LOWER</b>
+                            <p class="text">нижний регистр</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>LCASE</b>
+                            <p class="text">нижний регистр</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>UPPER</b>
+                            <p class="text">верхний регистр</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>UCASE</b>
+                            <p class="text">верхний регистр</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>TRIM</b>
+                            <p class="text">обрезание пробелов</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>LTRIM</b>
+                            <p class="text">обрезание пробелов слева</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>RTRIM</b>
+                            <p class="text">обрезание пробелов справа</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>SPACE</b>
+                            <p class="text">строка из пробелов</p>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="guide__title" id="date">Извлечение части даты</h2>
+                <div class="guide__block">
+                    <div class="guide__item">
+                        <a href="" class="guide__item-link">
+                            <b>DAY</b>
+                            <p class="text">день из даты</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>MONTH</b>
+                            <p class="text">месяц из даты</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>YEAR</b>
+                            <p class="text">год из даты</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>HOUR</b>
+                            <p class="text">часы из даты</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>MINUTE</b>
+                            <p class="text">минуты из даты</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>SECOND</b>
+                            <p class="text">секунды из даты</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>DATE</b>
+                            <p class="text">дата из datetime</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>DAYOFWEEK</b>
+                            <p class="text">день недели</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>DAYNAME</b>
+                            <p class="text">название дня недели</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>MONTHNAME</b>
+                            <p class="text">название месяца</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>DAYOFYEAR</b>
+                            <p class="text">номер дня в году</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>WEEK</b>
+                            <p class="text">номер недели в году</p>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="guide__title" id="unity">Группировка</h2>
+                <div class="guide__block">
+                    <div class="guide__item">
+                        <a href="" class="guide__item-link">
+                            <b>GROUP BY</b>
+                            <p class="text">группировка</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>HAVING</b>
+                            <p class="text">условие на group by</p>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="guide__title" id="unity">Несколько таблиц</h2>
+                <div class="guide__block">
+                    <div class="guide__item">
+                        <a href="" class="guide__item-link">
+                            <b>UNION</b>
+                            <p class="text">объединение таблиц</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>JOIN</b>
+                            <p class="text">связывание таблиц</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>LEFT JOIN</b>
+                            <p class="text">левый join</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>RIGHT JOIN</b>
+                            <p class="text">правый join</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>INNER JOIN</b>
+                            <p class="text">внутренний join</p>
+                        </a>
+                        <a href="" class="guide__item-link">
+                            <b>SELECT INTO</b>
+                            <p class="text">копирование в таблицу</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </header>
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <a href="../../index.html" class="logo__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110px" height="30px">
+                        <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 1, 0, 0, 1.08968688416904,0.52550000000001, 23.2710560105102)" font-size="30px"><tspan class="blue__text-logo" font-size="30px" font-family="Montserrat" font-weight="bold" fill="#000000">SQL</tspan><tspan font-size="30px" font-family="Montserrat" fill="#000000">era</tspan></text>
+                    </svg> 
+                </a>
+            </div>
+            <div class="copyright">
+                <div class="copyright__text">
+                    &#169 Руслан Трушакин, 2023
+                </div>
+                <div class="copyright__link">
+                    <a class="menu__link copyright__link-item" href="resources.html">Использованные источники</a>
+                </div>
+            </div>
+            <div class="social">
+                <a href="https://vk.com/rutrush" class="social__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                        <path class="st0" d="M13.162 18.994c.609 0 .858-.406.851-.915-.031-1.917.714-2.949 2.059-1.604 1.488 1.488 1.796 2.519 3.603 2.519h3.2c.808 0 1.126-.26 1.126-.668 0-.863-1.421-2.386-2.625-3.504-1.686-1.565-1.765-1.602-.313-3.486 1.801-2.339 4.157-5.336 2.073-5.336h-3.981c-.772 0-.828.435-1.103 1.083-.995 2.347-2.886 5.387-3.604 4.922-.751-.485-.407-2.406-.35-5.261.015-.754.011-1.271-1.141-1.539-.629-.145-1.241-.205-1.809-.205-2.273 0-3.841.953-2.95 1.119 1.571.293 1.42 3.692 1.054 5.16-.638 2.556-3.036-2.024-4.035-4.305-.241-.548-.315-.974-1.175-.974h-3.255c-.492 0-.787.16-.787.516 0 .602 2.96 6.72 5.786 9.77 2.756 2.975 5.48 2.708 7.376 2.708z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+      </footer>
+    <div id="toTop">
+        <svg fill="#000000" width="48px" height="48px" viewBox="-8.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.16 13.16l-6.84-6.84c-0.28-0.28-0.84-0.24-1.16 0.080l-6.92 6.76c-0.32 0.32-0.32 0.84 0 1.2 0.32 0.32 0.84 0.32 1.2 0l5.44-5.44v16.2c0 0.48 0.36 0.84 0.84 0.84s0.84-0.36 0.84-0.84v-16.2l5.44 5.44c0.16 0.16 0.36 0.24 0.6 0.24 0.2 0 0.44-0.080 0.6-0.24 0.32-0.32 0.32-0.84-0.040-1.2z"></path>
+        </svg>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lightzoom.js"></script>
+    <script type="text/javascript">jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});</script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<svg id="Группа_1" data-name="Группа 1" xmlns="http://www.w3.org/2000/svg" width="106" height="29" viewBox="0 0 106 29">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 30px;
+        text-anchor: middle;
+        font-family: Montserrat;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <text id="SQLera" class="cls-1" transform="translate(53.5 22.787) scale(1 1.09)">SQL<tspan class="cls-2">era</tspan></text>
+</svg>

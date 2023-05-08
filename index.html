@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Noto+Sans:wght@300;400;500;600;700;900&family=Montserrat:wght@300;600&display=swap"
+        rel="stylesheet">
+    <title>SQLera</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html" class="logo__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110px" height="30px">
+                            <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 1, 0, 0, 1.08968688416904,0.52550000000001, 23.2710560105102)" font-size="30px"><tspan class="blue__text-logo" font-size="30px" font-family="Montserrat" font-weight="bold" fill="#000000">SQL</tspan><tspan font-size="30px" font-family="Montserrat" fill="#000000">era</tspan></text>
+                        </svg> 
+                    </a>
+                </div>
+                <nav class="menu">
+                    <a href="course.html" class="menu__link">Курс</a>
+                    <a href="tests.html" class="menu__link">Тесты</a>
+                    <a href="handbook.html" class="menu__link">Справочник</a>
+                    <a href="checklist.html" class="menu__link">Памятка</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__general">
+            <h1 class="general__title title"><span class="blue__text">SQL</span><span class="">era</span> —
+                онлайн-пособие для людей, желающих попробовать себя в разработке информационных систем на
+                многофункциональном SQL</h1>
+        </div>
+        <div class="general__intro guide__block">
+            <div class="guide__item">
+                <a href="#goal" class="guide__item-link intro__nav-link">
+                    <p class="guide__item-link--counter">
+                        1
+                    </p>
+                    <b>Что такое SQL</b>
+                </a>
+                <a href="#benefits" class="guide__item-link intro__nav-link">
+                    <p class="guide__item-link--counter">
+                        2
+                    </p>
+                    <b>Преимущества SQL</b>
+                </a>
+                <!-- <a href="" class="guide__item-link intro__nav-link">
+                    <p class="guide__item-link--counter">
+                        3
+                    </p>
+                    <b>Как работать с сайтом</b>
+                </a> -->
+                <a href="#modules" class="guide__item-link intro__nav-link">
+                    <p class="guide__item-link--counter">
+                        3
+                    </p>
+                    <b>Обучающие модули</b>
+                </a>
+            </div>
+        </div>
+        </div>
+        <!-- <div class="arrow">
+             <svg width="40px" height="40px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -6599.000000)" fill="#000000">
+                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M12.2196294,6439.93971 L4.29200724,6447.88042 C3.90266425,6448.2704 3.90266425,6448.90338 4.29200724,6449.29436 L4.29200724,6449.29436 C4.68234854,6449.68435 5.31428215,6449.68435 5.70462345,6449.29436 L12.1337743,6442.85361 C12.4482436,6442.53862 12.9853372,6442.76161 12.9853372,6443.20759 L12.9853372,6458.00004 C12.9853372,6458.55202 13.440569,6459 13.9926374,6459 L13.9956324,6459 C14.5477008,6459 14.9819679,6458.55202 14.9819679,6458.00004 L14.9819679,6443.20759 C14.9819679,6442.76161 15.5200599,6442.53862 15.8345292,6442.85361 L22.2956261,6449.32536 C22.6849691,6449.71635 23.317901,6449.71635 23.707244,6449.32536 L23.707244,6449.32536 C24.0975853,6448.93538 24.0975853,6448.3014 23.707244,6447.91142 L15.3962688,6439.58573 L15.3962688,6439.58573 C14.6165845,6438.80476 13.3527173,6438.80476 12.573033,6439.58573 L12.2196294,6439.93971 Z" id="arrow_up-[#362]">
+                            </path>
+                        </g>
+                    </g>
+                </g>
+            </svg> 
+            <svg width="40px" height="40px" viewBox="-1 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-261.000000, -7399.000000)" fill="#000000">
+                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M219.770353,7256.58451 C218.225353,7257.4867 216.591353,7256.27747 215.381353,7254.95558 C216.484353,7253.46124 217.537353,7251.64689 217.594353,7249.79167 C217.642353,7248.02816 216.690353,7246.67637 215.284353,7246.16297 C214.541353,7245.88783 213.713353,7245.86191 212.952353,7246.08621 C211.551353,7246.49893 210.547353,7247.71414 210.427353,7249.28525 C210.262353,7251.27006 211.430353,7253.35756 212.626353,7254.95459 C211.920353,7255.73715 210.963353,7256.59348 209.927353,7256.82476 C208.126353,7257.24944 206.591353,7255.54375 207.196353,7253.68355 C207.507353,7252.7365 212.316353,7242.06773 213.133353,7241.42174 C213.626353,7241.02099 214.408353,7241.01202 214.920353,7241.46062 C215.671353,7242.1086 220.592353,7252.87506 220.853353,7253.83109 C221.159353,7254.96157 220.667353,7256.07011 219.770353,7256.58451 M214.002353,7253.23096 C213.584353,7252.62484 213.216353,7252.0277 212.919353,7251.34383 C212.484353,7250.326 212.198353,7248.98717 213.117353,7248.37608 C213.702353,7247.9843 214.529353,7248.03414 215.045353,7248.4987 C215.696353,7249.0749 215.533353,7250.14058 215.238353,7250.96103 C214.923353,7251.81836 214.449353,7252.59294 214.002353,7253.23096 M216.416353,7239.97126 C215.065353,7238.63143 212.829353,7238.71417 211.564353,7239.99518 C210.419353,7241.12267 205.250353,7252.2859 205.050353,7253.77626 C204.629353,7256.63336 206.908353,7259.16148 209.641353,7258.97407 C211.381353,7258.87936 212.807353,7257.80272 214.003353,7256.53566 C216.048353,7258.71388 218.673353,7259.8623 221.041353,7258.22839 C222.263353,7257.392 223.027353,7255.93753 223.002353,7254.3724 C222.979353,7252.30085 217.366353,7240.88342 216.416353,7239.97126" id="airbnb-[#179]">
+                            </path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            <svg width="40px" height="40px" viewBox="0 -4.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-260.000000, -6684.000000)" fill="#000000">
+                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M223.707692,6534.63378 L223.707692,6534.63378 C224.097436,6534.22888 224.097436,6533.57338 223.707692,6533.16951 L215.444127,6524.60657 C214.66364,6523.79781 213.397472,6523.79781 212.616986,6524.60657 L204.29246,6533.23165 C203.906714,6533.6324 203.901717,6534.27962 204.282467,6534.68555 C204.671211,6535.10081 205.31179,6535.10495 205.70653,6534.69695 L213.323521,6526.80297 C213.714264,6526.39807 214.346848,6526.39807 214.737591,6526.80297 L222.294621,6534.63378 C222.684365,6535.03868 223.317949,6535.03868 223.707692,6534.63378" id="arrow_up-[#337]">
+                            </path>
+                        </g>
+                    </g>
+                </g>
+            </svg> 
+        </div> -->
+    </header>
+
+    <section class="goal" id="goal">
+        <div class="container">
+            <h2 class="goal__title title">Что такое SQL и зачем его знать?</h2>
+            <div class="goal__content">
+                <div class="goal__text">
+                    <p class="goal__text-item">
+                        SQL — это структурированный язык запросов, созданный для того, чтобы получать из базы данных
+                        необходимую информацию. Если описать схему работы SQL простыми словами, то специалист формирует
+                        запрос и направляет его в базу. Та в свою очередь обрабатывает эту информацию, «понимает», что
+                        именно нужно специалисту, и отправляет ответ.
+                    </p>
+                    <div class="goal__picture">
+                        <img src="images/goall.png" alt="" class="goal__picture-img" width="350px">
+                    </div>
+                    <p class="goal__text-item">
+                        Когда мы покупаем что-то в интернет-магазинах, переводим деньги или запрашиваем выписки из банка
+                        — мы обращаемся к базам данных. С помощью SQL можно создавать такие базы и получать из них
+                        информацию для анализа.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="results benefits" id="benefits">
+        <div class="container">
+            <h2 class="results__title title">Преимущества SQL</h2>
+        </div>
+        <div class="results__list">
+            <div class="results__item">
+                <img src="images/dot.svg" alt="" class="results__item-img">
+                <div class="results__item-text">
+                    <h3 class="results__title">Быстрая обработка запросов</h3>
+                    Большой объем данных извлекается быстро и эффективно. Такие операции, как вставка, удаление данных
+                    выполняются практически мгновенно.
+                </div>
+            </div>
+            <div class="results__item">
+                <img src="images/dot.svg" alt="" class="results__item-img">
+                <div class="results__item-text">
+                    <h3 class="results__title">Простота освоения</h3>
+                    Для извлечения данных не требуется большого количества строк кода. Синтаксические правила не
+                    являются сложными в SQL, что делает его удобным для пользователя языком.
+                </div>
+            </div>
+            <div class="results__item">
+                <img src="images/dot.svg" alt="" class="results__item-img">
+                <div class="results__item-text">
+                    <h3 class="results__title">Стандартизированный язык</h3>
+                    Благодаря документации и многолетнему созданию, он предоставляет единую платформу по всему миру для
+                    всех своих пользователей.
+                </div>
+            </div>
+            <div class="results__item">
+                <img src="images/dot.svg" alt="" class="results__item-img">
+                <div class="results__item-text">
+                    <h3 class="results__title">Портативный язык</h3>
+                    Он может использоваться в программах на ПК, серверах, ноутбуках независимо от какой-либо платформы.
+                    Кроме того, он может быть встроен в другие приложения.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="intro" id="modules">
+        <div class="container">
+            <h2 class="intro__title title">Что будут включать в себя модули?</h2>
+            <p class="intro__subtitle">
+                Информация в данном курсе разделена на тематические модули, каждый из которых логически следует из
+                предыдущего.
+            </p>
+            <div class="intro__inner">
+                <div class="intro__list">
+                    <div class="intro__item">
+                        <div class="intro__item-text">
+                            <p class="intro__item-subtitle">
+                                Модуль 0
+                            </p>
+                            <h5 class="intro__item-title">
+                                Первое погружение
+                            </h5>
+                            <div class="intro__item-description">
+                                В этом коротком модуле произойдет знакомство c основными понятиями SQL.
+                            </div>
+                        </div>
+                        <div class="intro__item-themes">
+                            <a class="intro__item-theme">
+                                Введение
+                            </a>
+                            <a class="intro__item-theme">
+                                База данных в SQL
+                            </a>
+                            <a class="intro__item-theme">
+                                SQL-операторы
+                            </a>
+                            <a class="intro__item-theme">
+                                Виды СУБД
+                            </a>
+                        </div>
+                    </div>
+                    <div class="intro__item">
+                        <div class="intro__item-text">
+                            <p class="intro__item-subtitle">
+                                Модуль 1
+                            </p>
+                            <h5 class="intro__item-title">
+                                Фундаментальные основы
+                            </h5>
+                            <div class="intro__item-description">
+                                Это модуль сделан, чтобы ознакомиться с фундаментальными знаниями о базах данных и
+                                восполнить потенциальные пробелы.
+                            </div>
+                        </div>
+                        <div class="intro__item-themes">
+                            <a class="intro__item-theme">
+                                Типы данных
+                            </a>
+                            <a class="intro__item-theme">
+                                Cоздание таблиц
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="logo__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110px" height="30px">
+                        <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 1, 0, 0, 1.08968688416904,0.52550000000001, 23.2710560105102)" font-size="30px"><tspan class="blue__text-logo" font-size="30px" font-family="Montserrat" font-weight="bold" fill="#000000">SQL</tspan><tspan font-size="30px" font-family="Montserrat" fill="#000000">era</tspan></text>
+                    </svg> 
+                </a>
+            </div>
+            <div class="copyright">
+                <div class="copyright__text">
+                    &#169 Руслан Трушакин, 2023
+                </div>
+                <div class="copyright__link">
+                    <a class="menu__link copyright__link-item" href="resources.html">Использованные источники</a>
+                </div>
+            </div>
+            <div class="social">
+                <a href="https://vk.com/rutrush" class="social__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                        <path class="st0"
+                            d="M13.162 18.994c.609 0 .858-.406.851-.915-.031-1.917.714-2.949 2.059-1.604 1.488 1.488 1.796 2.519 3.603 2.519h3.2c.808 0 1.126-.26 1.126-.668 0-.863-1.421-2.386-2.625-3.504-1.686-1.565-1.765-1.602-.313-3.486 1.801-2.339 4.157-5.336 2.073-5.336h-3.981c-.772 0-.828.435-1.103 1.083-.995 2.347-2.886 5.387-3.604 4.922-.751-.485-.407-2.406-.35-5.261.015-.754.011-1.271-1.141-1.539-.629-.145-1.241-.205-1.809-.205-2.273 0-3.841.953-2.95 1.119 1.571.293 1.42 3.692 1.054 5.16-.638 2.556-3.036-2.024-4.035-4.305-.241-.548-.315-.974-1.175-.974h-3.255c-.492 0-.787.16-.787.516 0 .602 2.96 6.72 5.786 9.77 2.756 2.975 5.48 2.708 7.376 2.708z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div id="toTop">
+        <svg fill="#000000" width="48px" height="48px" viewBox="-8.5 0 32 32" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M15.16 13.16l-6.84-6.84c-0.28-0.28-0.84-0.24-1.16 0.080l-6.92 6.76c-0.32 0.32-0.32 0.84 0 1.2 0.32 0.32 0.84 0.32 1.2 0l5.44-5.44v16.2c0 0.48 0.36 0.84 0.84 0.84s0.84-0.36 0.84-0.84v-16.2l5.44 5.44c0.16 0.16 0.36 0.24 0.6 0.24 0.2 0 0.44-0.080 0.6-0.24 0.32-0.32 0.32-0.84-0.040-1.2z">
+            </path>
+        </svg>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lightzoom.js"></script>
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({
+            speed: 400,
+            viewTitle: true
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

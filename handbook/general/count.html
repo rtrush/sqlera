@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Noto+Sans:wght@300;400;500;600;700;900&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <title>Основные запросы</title>
+</head>
+<body>
+    <header class="header__lesson">
+        <div class="header__top">
+            <div class="container">
+                <div class="logo">
+                    <a href="../../index.html" class="logo__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110px" height="30px">
+                            <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 1, 0, 0, 1.08968688416904,0.52550000000001, 23.2710560105102)" font-size="30px"><tspan class="blue__text-logo" font-size="30px" font-family="Montserrat" font-weight="bold" fill="#000000">SQL</tspan><tspan font-size="30px" font-family="Montserrat" fill="#000000">era</tspan></text>
+                        </svg> 
+                    </a>
+                </div>
+                <nav class="menu">
+                    <a href="../../course.html" class="menu__link">Курс</a>
+                    <a href="../../tests.html" class="menu__link">Тесты</a>
+                    <a href="../../handbook.html" class="menu__link">Справочник</a>
+                    <a href="../../checklist.html" class="menu__link">Памятка</a>
+                </nav>
+            </div>
+        </div>
+        <section class="lesson">
+            <div class="container">
+                <div class="lesson__inner">
+                    <div class="lesson__breadcrumbs">
+                        <ul class="breadcrumb">
+                            <li><a href="../../index.html">Главная</a></li>
+                            <li><a href="../../handbook.html">Справочник</a></li>
+                            <li class="breadcrumb__actual">COUNT</li>
+                          </ul>
+                    </div>
+                    <h1 class="lesson__title title">Команда COUNT</h1>
+                    <div class="lesson__content">
+                        <p class="lesson__text">
+                            Функция COUNT подсчитывает количество записей в таблице. Условие, по которому будут выбираться записи, задается с помощью команды WHERE.
+                        </p>
+                        <p class="lesson__text">
+                            Команда WHERE не является обязательной, если ее не указать - будут подсчитаны все записи в таблице.
+                        </p>
+                        <h3 class="lesson__inner-title">Синтаксис</h3>
+                        <p class="lesson__text">
+                            Подсчет всех записей:
+                        </p>
+                        <div class="guide__code">
+                            <p class="lesson__text">
+                                <b>SELECT COUNT</b>(*)<b> FROM</b> имя_таблицы <b>WHERE</b> имя_таблицы
+                            </p>
+                        </div>
+                        <p class="lesson__text">
+                            Подсчет всех записей, где заданное поле не равно NULL:
+                        </p>
+                        <div class="guide__code">
+                            <p class="lesson__text">
+                                <b>SELECT COUNT</b>(поле)<b> FROM</b> имя_таблицы <b>WHERE</b> условие
+                            </p>
+                        </div>
+                        <p class="lesson__text">
+                            Только уникальные значения поля:
+                        </p>
+                        <div class="guide__code">
+                            <p class="lesson__text">
+                                <b>SELECT COUNT (DISTINCT </b>поле<b>) FROM</b> имя_таблицы <b>WHERE</b> условие
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lesson__teleports">
+                        <!-- <a href="lesson-2.html" class="lesson__teleports-next">← назад</a> -->
+                        <!-- <a href="lesson-2.html" class="lesson__teleports-next">cледующая тема →</a> -->
+                    </div>
+                    <!-- <div class="lesson__recomendation">
+                        <h3 class="lesson__recomendation-title lesson__title">Смотрите также</h3>
+                        <a href="#goal" class="guide__item-link intro__nav-link">
+                            <b>SELECT</b>
+                        </a>
+                    </div>  -->
+                </div>
+            </div>
+        </section>
+    </header>
+    </header>
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <a href="../../index.html" class="logo__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110px" height="30px">
+                        <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 1, 0, 0, 1.08968688416904,0.52550000000001, 23.2710560105102)" font-size="30px"><tspan class="blue__text-logo" font-size="30px" font-family="Montserrat" font-weight="bold" fill="#000000">SQL</tspan><tspan font-size="30px" font-family="Montserrat" fill="#000000">era</tspan></text>
+                    </svg> 
+                </a>
+            </div>
+            <div class="copyright">
+                <div class="copyright__text">
+                    &#169 Руслан Трушакин, 2023
+                </div>
+                <div class="copyright__link">
+                    <a class="menu__link copyright__link-item" href="../../resources.html">Использованные источники</a>
+                </div>
+            </div>
+            <div class="social">
+                <a href="https://vk.com/rutrush" class="social__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                        <path class="st0" d="M13.162 18.994c.609 0 .858-.406.851-.915-.031-1.917.714-2.949 2.059-1.604 1.488 1.488 1.796 2.519 3.603 2.519h3.2c.808 0 1.126-.26 1.126-.668 0-.863-1.421-2.386-2.625-3.504-1.686-1.565-1.765-1.602-.313-3.486 1.801-2.339 4.157-5.336 2.073-5.336h-3.981c-.772 0-.828.435-1.103 1.083-.995 2.347-2.886 5.387-3.604 4.922-.751-.485-.407-2.406-.35-5.261.015-.754.011-1.271-1.141-1.539-.629-.145-1.241-.205-1.809-.205-2.273 0-3.841.953-2.95 1.119 1.571.293 1.42 3.692 1.054 5.16-.638 2.556-3.036-2.024-4.035-4.305-.241-.548-.315-.974-1.175-.974h-3.255c-.492 0-.787.16-.787.516 0 .602 2.96 6.72 5.786 9.77 2.756 2.975 5.48 2.708 7.376 2.708z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+      </footer>
+    <div id="toTop">
+        <svg fill="#000000" width="48px" height="48px" viewBox="-8.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.16 13.16l-6.84-6.84c-0.28-0.28-0.84-0.24-1.16 0.080l-6.92 6.76c-0.32 0.32-0.32 0.84 0 1.2 0.32 0.32 0.84 0.32 1.2 0l5.44-5.44v16.2c0 0.48 0.36 0.84 0.84 0.84s0.84-0.36 0.84-0.84v-16.2l5.44 5.44c0.16 0.16 0.36 0.24 0.6 0.24 0.2 0 0.44-0.080 0.6-0.24 0.32-0.32 0.32-0.84-0.040-1.2z"></path>
+        </svg>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/lightzoom.js"></script>
+    <script type="text/javascript">jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});</script>
+    <script src="../../js/main.js"></script>
+</body>
+
+</html>
