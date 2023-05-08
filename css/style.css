@@ -43,6 +43,12 @@ section {
     padding: 60px 0;
 }
 
+.sec__flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .container {
     max-width: 1350px;
     padding: 0 10px;
